@@ -36,3 +36,7 @@ def unicodetoascii(bstr):
 
                  )
     return ByteString
+    
+    #Explanation:
+    -> dot (.) is used to do a new line 
+    -> funciton starts from def (github showing it un-fancy way)
