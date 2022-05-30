@@ -56,7 +56,7 @@ def unicodetoascii(str):
     replace('\\xe2\\x80\\x9d', '"').
     replace('\\xe2\\x80\\x9e', '"').
     replace('\\xe2\\x80\\x9f', '"').
-    replace('\\xe2\\x80\\xa6', '...').#
+    replace('\\xe2\\x80\\xa6', '...').
     replace('\\xe2\\x80\\xb2', "'").
     replace('\\xe2\\x80\\xb3', "'").
     replace('\\xe2\\x80\\xb4', "'").
