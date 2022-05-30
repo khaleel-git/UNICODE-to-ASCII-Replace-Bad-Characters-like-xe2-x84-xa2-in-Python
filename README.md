@@ -3,7 +3,6 @@ A quick Function for UNICODE to ASCII Replace (Bad Characters like '\xe2\x84\xa2
 # Below is the Function: 
 
 def unicodetoascii(bstr):
-
     ByteString = (bstr.
     		replace(b'\\xe2\\x80\\x99', b"'").
             replace(b'\\xc3\\xa9', b'e').
