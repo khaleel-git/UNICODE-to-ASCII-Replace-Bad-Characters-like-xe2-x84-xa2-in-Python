@@ -5,6 +5,7 @@ A quick Function for UNICODE to ASCII Replace (Bad Characters like '\xe2\x84\xa2
 # (1) -> First Function is for ByteString
 
 def unicodetoascii(ByteStr):
+
     finalByteString = (ByteStr.
     replace(b'\\xe2\\x80\\x99', b"'").
     replace(b'\\xc3\\xa9', b'e').
@@ -38,6 +39,7 @@ def unicodetoascii(ByteStr):
 # (2) -> Second Function is for Simple String
 
 def unicodetoascii(str):
+
     finalString = (str.
     replace('\\xe2\\x80\\x99', "'").
     replace('\\xc3\\xa9', 'e').
@@ -70,5 +72,6 @@ def unicodetoascii(str):
     return finalString
  
 # Explanation:
--> dot (.) is used to do a new line 
+-> dot (.) is used to do a new line
+
 -> funciton starts from def (a simple python function)
